@@ -15,6 +15,10 @@
 #
 # Uncomment the following lines to make the configuration take effect.
 
+PrePush:
+  Brakeman:
+    enabled: true
+
 #PreCommit:
 #  RuboCop:
 #    enabled: true
