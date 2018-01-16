@@ -1,25 +1,4 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# rails_simple_blog
+# Brakeman demo
+ 
+This is a demo of how you can do static analysis at the commit level instead of the continuous integration server level. Please take a look at the gemfile to see the necessary dependencies. After you successfully run the simple blog application, take a look at overcommit.yml to see how to run specific tools and a specific time. More documentation can be found at overcommit's GitHub page (https://github.com/brigade/overcommit). 
