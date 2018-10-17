@@ -8,3 +8,4 @@ gem install --no-rdoc --no-ri brakeman
 
 cowsay "test for security first!"
 brakeman . -o brakeman_results.html
+brakeman .
