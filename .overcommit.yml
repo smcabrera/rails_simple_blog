@@ -18,6 +18,7 @@
 PrePush:
   Brakeman:
     enabled: true
+    on_fail: warn
 
 #PreCommit:
 #  RuboCop:
