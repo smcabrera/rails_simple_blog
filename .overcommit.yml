@@ -19,6 +19,7 @@ PrePush:
   Brakeman:
     enabled: true
     on_fail: warn
+    command: 'bin/brakeman'
 
 #PreCommit:
 #  RuboCop:
